@@ -2,9 +2,9 @@ import colorama
 import os
 import readchar
 
-colorama.init(autoreset=True,)
+from settings import *
 
-USERNAME = "jwu"
+colorama.init(autoreset=True,)
 
 os.system('cls')
 print(
